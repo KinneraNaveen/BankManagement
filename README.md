@@ -98,7 +98,7 @@ run.bat
 javac -cp "lib/mysql-connector-j-9.4.0.jar" -d out src/Main.java src/db/DatabaseConnection.java src/model/Account.java src/service/BankService.java
 
 # Run
-java -cp "out;lib/mysql-connector-j-9.4.0.jar" Main
+
 ```
 
 **Note:** On Linux/Mac, use `:` instead of `;` in classpath:
@@ -185,4 +185,10 @@ Bankmanagement/
 
 ## Author
 
-Wipro Bank Management System
+Wipro Bank Management System   
+
+
+javac -cp "lib/mysql-connector-j-9.4.0.jar" -d out src/Main.java src/db/DatabaseConnection.java src/model/Account.java src/service/BankService.java
+
+
+java -cp "out;lib/mysql-connector-j-9.4.0.jar" Main
